@@ -30,4 +30,12 @@ docker compose exec -T app python -m invoicecover.delivery evaluate --capacity 3
 docker compose exec -T app pytest -q
 ```
 
+执行复核结论回流、对照户回放和评分卡版本切换：
+
+```sh
+python scripts/scorecard_switch.py
+```
+
+脚本写入 `scorecard_ledger.json`（批次、训练版本、旧卡参数和切换历史）与 `scorecard_review_result.json`（是否换卡及换卡后的复核单）。台账存在活动卡时，概览和复核单使用该卡；删除台账则回到样例内置拟合卡。
+
 数据和模型约定见 [业务契约](docs/SPEC.md)。模块、例外规则与验证入口见 [业务深度](docs/DEPTH.md)。

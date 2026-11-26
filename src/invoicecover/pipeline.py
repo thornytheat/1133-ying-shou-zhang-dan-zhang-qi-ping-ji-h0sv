@@ -1,6 +1,7 @@
 from datetime import date, timedelta
 from .credit_terms.seat_replay import review_pressure
 from .repayment_clock.vintage_matching import recovery_records, recovery_snapshot
+from .scorecard_governance import ScorecardLedger
 from .term_scorecard.score_evaluation import evaluate_folds, reliability_notes
 from pathlib import Path
 from .aging_features import service as aging
@@ -11,8 +12,24 @@ from .repayment_clock import service as payments
 from .term_scorecard import service as model
 
 DATA = Path(__file__).resolve().parents[2] / "sample_data"
+LEDGER = Path(__file__).resolve().parents[2] / "scorecard_ledger.json"
 AS_OF = date(2026, 9, 1)
 SPLIT = date(2026, 6, 1)
+
+
+def active_scorecard(history):
+    """Use the governed active card when a switch ledger is present."""
+    fitted = model.fit(history, SPLIT)
+    if not LEDGER.exists():
+        return fitted
+    ledger = ScorecardLedger.load(LEDGER)
+    record = ledger.active_card()
+    if not record:
+        return fitted
+    restored = model.model_fit_from_record(record)
+    if restored.card.model_id != fitted.card.model_id:
+        return restored
+    return fitted
 
 
 def run(capacity=None):
@@ -21,7 +38,7 @@ def run(capacity=None):
     cash = payments.from_csv(DATA / "clearing_house_receipts.csv", invoices)
     accounts = aging.aggregate(invoices.bills, cash.statements, AS_OF)
     history = aging.training_periods(DATA / "matured_month_end_snapshots.csv", AS_OF)
-    risk_model = model.fit(history, SPLIT)
+    risk_model = active_scorecard(history)
     scores = model.evaluate_book(risk_model, accounts)
     queue = review.dispatch(accounts, scores, review.ReviewPolicy(seats))
     distribution = collection.drift(

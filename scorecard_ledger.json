@@ -1,0 +1,979 @@
+{
+  "active_card_id": "85bb1cb9cd4ff6",
+  "batches": {
+    "REVIEW-2026-09-01": [
+      {
+        "batch_id": "REVIEW-2026-09-01",
+        "conclusion_id": "1d2b8db4209845b7",
+        "debtor": "东汇机电",
+        "fingerprint": "1713ed27657477",
+        "label": null,
+        "mature": null,
+        "mature_on": null,
+        "observed_at": "2026-09-01",
+        "payload": {},
+        "reviewed": true,
+        "source": "account_period_review"
+      },
+      {
+        "batch_id": "REVIEW-2026-09-01",
+        "conclusion_id": "cb2438f8af14e1fd",
+        "debtor": "大渡贸易",
+        "fingerprint": "d16b2238a25fd1",
+        "label": 0,
+        "mature": null,
+        "mature_on": "2026-09-04",
+        "observed_at": "2026-08-01",
+        "payload": {},
+        "reviewed": true,
+        "source": "account_period_review"
+      },
+      {
+        "batch_id": "REVIEW-2026-09-01",
+        "conclusion_id": "0b6aedef1e31473a",
+        "debtor": "岭南五金",
+        "fingerprint": "c2e921acc18c85",
+        "label": 1,
+        "mature": null,
+        "mature_on": "2026-09-04",
+        "observed_at": "2026-08-01",
+        "payload": {},
+        "reviewed": true,
+        "source": "account_period_review"
+      },
+      {
+        "batch_id": "REVIEW-2026-09-01",
+        "conclusion_id": "cd7ccc4d2167aae9",
+        "debtor": "柳城商行",
+        "fingerprint": "b92fb106583fd4",
+        "label": 0,
+        "mature": null,
+        "mature_on": "2026-09-04",
+        "observed_at": "2026-08-01",
+        "payload": {},
+        "reviewed": true,
+        "source": "account_period_review"
+      },
+      {
+        "batch_id": "REVIEW-2026-09-01",
+        "conclusion_id": "6c816b68c1a1673a",
+        "debtor": "温泉批发",
+        "fingerprint": "f6845b66cedf97",
+        "label": 1,
+        "mature": null,
+        "mature_on": "2026-09-04",
+        "observed_at": "2026-08-01",
+        "payload": {},
+        "reviewed": true,
+        "source": "account_period_review"
+      },
+      {
+        "batch_id": "REVIEW-2026-09-01",
+        "conclusion_id": "72b3100bf2d79ef1",
+        "debtor": "白沙工具",
+        "fingerprint": "8a2e2cfd5d5d2c",
+        "label": 1,
+        "mature": null,
+        "mature_on": "2026-09-04",
+        "observed_at": "2026-08-01",
+        "payload": {},
+        "reviewed": true,
+        "source": "account_period_review"
+      }
+    ]
+  },
+  "cards": {
+    "85bb1cb9cd4ff6": {
+      "bands": [
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.07618839499559901
+        },
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.10831433104023958
+        },
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.11338572070700621
+        },
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.12918812335211186
+        },
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.17316340811324368
+        },
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.1999184234445767
+        },
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.24226231032892287
+        },
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.2690237122447391
+        },
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.30512415953214495
+        },
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.3514741184298129
+        },
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.35372055242849804
+        },
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.35597346337437147
+        },
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.5120668189537584
+        },
+        {
+          "events": 1,
+          "loans": 3,
+          "maximum_score": 0.6139396360355591
+        },
+        {
+          "events": 1,
+          "loans": 3,
+          "maximum_score": 0.7306778204264226
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.8040025191852417
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.8222883154128302
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.827611271930431
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.8314452652387424
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.8484630311127962
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.8628598138858756
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.8637786693800561
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.879195027963056
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.881637122714782
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.8930826511381512
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.9055502232712661
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.9083334423089997
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.9166951529477708
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.9470537297553248
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.9511536317488186
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.9612211999348432
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.9683832832997954
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.9754507353103172
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.9885996036532866
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.9907066973728291
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.9924657682449592
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.9959845010864142
+        }
+      ],
+      "calibration_count": 41,
+      "card_id": "85bb1cb9cd4ff6",
+      "cutoff": "2026-06-01",
+      "intercept": 0.8878434548354144,
+      "metrics": {
+        "calibration": {
+          "average_precision": 0.9880952380952381,
+          "brier": 0.032520325203252036,
+          "count": 41,
+          "ece": 5.415722071342227e-18,
+          "positive": 24
+        },
+        "raw": {
+          "average_precision": 0.9907142857142858,
+          "brier": 0.08060341774734334,
+          "count": 41,
+          "ece": 0.17390995851845167,
+          "positive": 24
+        }
+      },
+      "model_id": "85bb1cb9cd4ff6",
+      "scaler": {
+        "center": [
+          0.49166666666666664,
+          0.23533333333333334,
+          33.8,
+          68.27777777777777,
+          3.0,
+          6.022222222222222
+        ],
+        "maximum": [
+          1.0,
+          0.95,
+          87.0,
+          135.0,
+          5.0,
+          12.4
+        ],
+        "minimum": [
+          0.0,
+          0.0,
+          0.0,
+          4.0,
+          1.0,
+          0.0
+        ],
+        "scales": [
+          0.3003007751497747,
+          0.23666760563194014,
+          29.11402869179507,
+          38.82983611656771,
+          1.4142135623730951,
+          3.761139832485117
+        ]
+      },
+      "train_count": 90,
+      "weights": [
+        0.32480394359147724,
+        0.8735092329672244,
+        1.262702218753743,
+        -0.17823721068633727,
+        -0.15336924416607528,
+        -0.20633511609562744
+      ]
+    },
+    "91f94579eac395": {
+      "bands": [
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.10831433104023958
+        },
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.11338572070700621
+        },
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.12918812335211186
+        },
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.17316340811324368
+        },
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.1999184234445767
+        },
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.24226231032892287
+        },
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.2690237122447391
+        },
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.30512415953214495
+        },
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.35372055242849804
+        },
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.35597346337437147
+        },
+        {
+          "events": 0,
+          "loans": 1,
+          "maximum_score": 0.5120668189537584
+        },
+        {
+          "events": 1,
+          "loans": 3,
+          "maximum_score": 0.6139396360355591
+        },
+        {
+          "events": 1,
+          "loans": 3,
+          "maximum_score": 0.7306778204264226
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.8040025191852417
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.8222883154128302
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.827611271930431
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.8314452652387424
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.8484630311127962
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.8628598138858756
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.8637786693800561
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.879195027963056
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.881637122714782
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.9055502232712661
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.9166951529477708
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.9470537297553248
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.9511536317488186
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.9612211999348432
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.9683832832997954
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.9754507353103172
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.9885996036532866
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.9907066973728291
+        },
+        {
+          "events": 1,
+          "loans": 1,
+          "maximum_score": 0.9924657682449592
+        }
+      ],
+      "calibration_count": 36,
+      "card_id": "91f94579eac395",
+      "cutoff": "2026-06-01",
+      "intercept": 0.8878434548354144,
+      "metrics": {
+        "calibration": {
+          "average_precision": 0.9847619047619047,
+          "brier": 0.03703703703703704,
+          "count": 36,
+          "ece": 6.1679056923619804e-18,
+          "positive": 21
+        },
+        "raw": {
+          "average_precision": 0.9880519480519481,
+          "brier": 0.0876541999629158,
+          "count": 36,
+          "ece": 0.18055684389901866,
+          "positive": 21
+        }
+      },
+      "model_id": "91f94579eac395",
+      "scaler": {
+        "center": [
+          0.49166666666666664,
+          0.23533333333333334,
+          33.8,
+          68.27777777777777,
+          3.0,
+          6.022222222222222
+        ],
+        "maximum": [
+          1.0,
+          0.95,
+          87.0,
+          135.0,
+          5.0,
+          12.4
+        ],
+        "minimum": [
+          0.0,
+          0.0,
+          0.0,
+          4.0,
+          1.0,
+          0.0
+        ],
+        "scales": [
+          0.3003007751497747,
+          0.23666760563194014,
+          29.11402869179507,
+          38.82983611656771,
+          1.4142135623730951,
+          3.761139832485117
+        ]
+      },
+      "train_count": 90,
+      "weights": [
+        0.32480394359147724,
+        0.8735092329672244,
+        1.262702218753743,
+        -0.17823721068633727,
+        -0.15336924416607528,
+        -0.20633511609562744
+      ]
+    }
+  },
+  "events": [
+    {
+      "at": "2026-11-26T22:44:38+00:00",
+      "batch_id": "REVIEW-2026-09-01",
+      "inserted": 6,
+      "mature": 5,
+      "pending": 1,
+      "total": 6,
+      "type": "register",
+      "unchanged": 0
+    },
+    {
+      "at": "2026-11-26T22:44:38+00:00",
+      "batch_id": "REVIEW-2026-09-01",
+      "build_count": 1,
+      "input_hash": "81343efbedb04afb",
+      "mature": 5,
+      "pending": 1,
+      "revision": 1,
+      "type": "build_version",
+      "version_id": "TRAIN-REVIEW-2026-09-01"
+    },
+    {
+      "at": "2026-11-26T22:44:38+00:00",
+      "batch_id": "REVIEW-2026-09-01",
+      "card_id": "85bb1cb9cd4ff6",
+      "comparison": {
+        "allowed": true,
+        "candidate": {
+          "card_id": "85bb1cb9cd4ff6",
+          "control_count": 13,
+          "flagged": [
+            "临港包装",
+            "乐溪用品",
+            "宝泉设备",
+            "新城电器",
+            "海西配件",
+            "银山电工"
+          ],
+          "missed": [
+            "北江器材",
+            "南湖商贸",
+            "灵石代理",
+            "通州供应"
+          ],
+          "missed_count": 4,
+          "out_of_support": [],
+          "positive_count": 7,
+          "threshold": 0.72
+        },
+        "current": {
+          "card_id": "91f94579eac395",
+          "control_count": 13,
+          "flagged": [
+            "临港包装",
+            "乐溪用品",
+            "宝泉设备",
+            "新城电器",
+            "海西配件",
+            "银山电工"
+          ],
+          "missed": [
+            "北江器材",
+            "南湖商贸",
+            "灵石代理",
+            "通州供应"
+          ],
+          "missed_count": 4,
+          "out_of_support": [],
+          "positive_count": 7,
+          "threshold": 0.72
+        },
+        "missed_delta": 0
+      },
+      "previous_card_id": "91f94579eac395",
+      "type": "switch_card"
+    }
+  ],
+  "previous_card_id": "91f94579eac395",
+  "schema": "invoicecover.scorecard_ledger/v1",
+  "switch_history": [
+    {
+      "at": "2026-11-26T22:44:38+00:00",
+      "batch_id": "REVIEW-2026-09-01",
+      "card_id": "85bb1cb9cd4ff6",
+      "comparison": {
+        "allowed": true,
+        "candidate": {
+          "card_id": "85bb1cb9cd4ff6",
+          "control_count": 13,
+          "flagged": [
+            "临港包装",
+            "乐溪用品",
+            "宝泉设备",
+            "新城电器",
+            "海西配件",
+            "银山电工"
+          ],
+          "missed": [
+            "北江器材",
+            "南湖商贸",
+            "灵石代理",
+            "通州供应"
+          ],
+          "missed_count": 4,
+          "out_of_support": [],
+          "positive_count": 7,
+          "threshold": 0.72
+        },
+        "current": {
+          "card_id": "91f94579eac395",
+          "control_count": 13,
+          "flagged": [
+            "临港包装",
+            "乐溪用品",
+            "宝泉设备",
+            "新城电器",
+            "海西配件",
+            "银山电工"
+          ],
+          "missed": [
+            "北江器材",
+            "南湖商贸",
+            "灵石代理",
+            "通州供应"
+          ],
+          "missed_count": 4,
+          "out_of_support": [],
+          "positive_count": 7,
+          "threshold": 0.72
+        },
+        "missed_delta": 0
+      },
+      "previous_card_id": "91f94579eac395",
+      "type": "switch_card"
+    }
+  ],
+  "training_versions": {
+    "REVIEW-2026-09-01": {
+      "batch_id": "REVIEW-2026-09-01",
+      "build_count": 1,
+      "card": {
+        "bands": [
+          {
+            "events": 0,
+            "loans": 1,
+            "maximum_score": 0.07618839499559901
+          },
+          {
+            "events": 0,
+            "loans": 1,
+            "maximum_score": 0.10831433104023958
+          },
+          {
+            "events": 0,
+            "loans": 1,
+            "maximum_score": 0.11338572070700621
+          },
+          {
+            "events": 0,
+            "loans": 1,
+            "maximum_score": 0.12918812335211186
+          },
+          {
+            "events": 0,
+            "loans": 1,
+            "maximum_score": 0.17316340811324368
+          },
+          {
+            "events": 0,
+            "loans": 1,
+            "maximum_score": 0.1999184234445767
+          },
+          {
+            "events": 0,
+            "loans": 1,
+            "maximum_score": 0.24226231032892287
+          },
+          {
+            "events": 0,
+            "loans": 1,
+            "maximum_score": 0.2690237122447391
+          },
+          {
+            "events": 0,
+            "loans": 1,
+            "maximum_score": 0.30512415953214495
+          },
+          {
+            "events": 0,
+            "loans": 1,
+            "maximum_score": 0.3514741184298129
+          },
+          {
+            "events": 0,
+            "loans": 1,
+            "maximum_score": 0.35372055242849804
+          },
+          {
+            "events": 0,
+            "loans": 1,
+            "maximum_score": 0.35597346337437147
+          },
+          {
+            "events": 0,
+            "loans": 1,
+            "maximum_score": 0.5120668189537584
+          },
+          {
+            "events": 1,
+            "loans": 3,
+            "maximum_score": 0.6139396360355591
+          },
+          {
+            "events": 1,
+            "loans": 3,
+            "maximum_score": 0.7306778204264226
+          },
+          {
+            "events": 1,
+            "loans": 1,
+            "maximum_score": 0.8040025191852417
+          },
+          {
+            "events": 1,
+            "loans": 1,
+            "maximum_score": 0.8222883154128302
+          },
+          {
+            "events": 1,
+            "loans": 1,
+            "maximum_score": 0.827611271930431
+          },
+          {
+            "events": 1,
+            "loans": 1,
+            "maximum_score": 0.8314452652387424
+          },
+          {
+            "events": 1,
+            "loans": 1,
+            "maximum_score": 0.8484630311127962
+          },
+          {
+            "events": 1,
+            "loans": 1,
+            "maximum_score": 0.8628598138858756
+          },
+          {
+            "events": 1,
+            "loans": 1,
+            "maximum_score": 0.8637786693800561
+          },
+          {
+            "events": 1,
+            "loans": 1,
+            "maximum_score": 0.879195027963056
+          },
+          {
+            "events": 1,
+            "loans": 1,
+            "maximum_score": 0.881637122714782
+          },
+          {
+            "events": 1,
+            "loans": 1,
+            "maximum_score": 0.8930826511381512
+          },
+          {
+            "events": 1,
+            "loans": 1,
+            "maximum_score": 0.9055502232712661
+          },
+          {
+            "events": 1,
+            "loans": 1,
+            "maximum_score": 0.9083334423089997
+          },
+          {
+            "events": 1,
+            "loans": 1,
+            "maximum_score": 0.9166951529477708
+          },
+          {
+            "events": 1,
+            "loans": 1,
+            "maximum_score": 0.9470537297553248
+          },
+          {
+            "events": 1,
+            "loans": 1,
+            "maximum_score": 0.9511536317488186
+          },
+          {
+            "events": 1,
+            "loans": 1,
+            "maximum_score": 0.9612211999348432
+          },
+          {
+            "events": 1,
+            "loans": 1,
+            "maximum_score": 0.9683832832997954
+          },
+          {
+            "events": 1,
+            "loans": 1,
+            "maximum_score": 0.9754507353103172
+          },
+          {
+            "events": 1,
+            "loans": 1,
+            "maximum_score": 0.9885996036532866
+          },
+          {
+            "events": 1,
+            "loans": 1,
+            "maximum_score": 0.9907066973728291
+          },
+          {
+            "events": 1,
+            "loans": 1,
+            "maximum_score": 0.9924657682449592
+          },
+          {
+            "events": 1,
+            "loans": 1,
+            "maximum_score": 0.9959845010864142
+          }
+        ],
+        "calibration_count": 41,
+        "card_id": "85bb1cb9cd4ff6",
+        "cutoff": "2026-06-01",
+        "intercept": 0.8878434548354144,
+        "metrics": {
+          "calibration": {
+            "average_precision": 0.9880952380952381,
+            "brier": 0.032520325203252036,
+            "count": 41,
+            "ece": 5.415722071342227e-18,
+            "positive": 24
+          },
+          "raw": {
+            "average_precision": 0.9907142857142858,
+            "brier": 0.08060341774734334,
+            "count": 41,
+            "ece": 0.17390995851845167,
+            "positive": 24
+          }
+        },
+        "model_id": "85bb1cb9cd4ff6",
+        "scaler": {
+          "center": [
+            0.49166666666666664,
+            0.23533333333333334,
+            33.8,
+            68.27777777777777,
+            3.0,
+            6.022222222222222
+          ],
+          "maximum": [
+            1.0,
+            0.95,
+            87.0,
+            135.0,
+            5.0,
+            12.4
+          ],
+          "minimum": [
+            0.0,
+            0.0,
+            0.0,
+            4.0,
+            1.0,
+            0.0
+          ],
+          "scales": [
+            0.3003007751497747,
+            0.23666760563194014,
+            29.11402869179507,
+            38.82983611656771,
+            1.4142135623730951,
+            3.761139832485117
+          ]
+        },
+        "train_count": 90,
+        "weights": [
+          0.32480394359147724,
+          0.8735092329672244,
+          1.262702218753743,
+          -0.17823721068633727,
+          -0.15336924416607528,
+          -0.20633511609562744
+        ]
+      },
+      "first_built_at": "2026-11-26T22:44:38+00:00",
+      "input_hash": "81343efbedb04afb",
+      "last_built_at": "2026-11-26T22:44:38+00:00",
+      "mature_count": 5,
+      "pending_count": 1,
+      "prior_input_hashes": [],
+      "revision": 1,
+      "source_ids": [
+        "0b6aedef1e31473a",
+        "6c816b68c1a1673a",
+        "72b3100bf2d79ef1",
+        "cb2438f8af14e1fd",
+        "cd7ccc4d2167aae9"
+      ],
+      "version_id": "TRAIN-REVIEW-2026-09-01"
+    }
+  }
+}

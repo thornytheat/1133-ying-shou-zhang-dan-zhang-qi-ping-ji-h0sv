@@ -1,0 +1,355 @@
+{
+  "as_of": "2026-11-26",
+  "review_date": "2026-09-01",
+  "batch_id": "REVIEW-2026-09-01",
+  "seats": 6,
+  "registration": {
+    "inserted": 6,
+    "updated": 0,
+    "unchanged": 0,
+    "total": 6,
+    "mature": 5,
+    "pending": 1
+  },
+  "training_version": {
+    "version_id": "TRAIN-REVIEW-2026-09-01",
+    "revision": 1,
+    "build_count": 1,
+    "input_hash": "81343efbedb04afb",
+    "mature_count": 5,
+    "pending_count": 1
+  },
+  "switch": {
+    "switch": true,
+    "active_card_id": "85bb1cb9cd4ff6",
+    "retained_card_id": null,
+    "missed_current": 4,
+    "missed_candidate": 4,
+    "missed_delta": 0,
+    "reason": "对照户高风险漏户未增加，允许换卡",
+    "switched": true,
+    "previous_card_id": "91f94579eac395",
+    "comparison": {
+      "allowed": true,
+      "missed_delta": 0,
+      "current": {
+        "card_id": "91f94579eac395",
+        "control_count": 13,
+        "positive_count": 7,
+        "threshold": 0.72,
+        "flagged": [
+          "临港包装",
+          "乐溪用品",
+          "宝泉设备",
+          "新城电器",
+          "海西配件",
+          "银山电工"
+        ],
+        "missed": [
+          "北江器材",
+          "南湖商贸",
+          "灵石代理",
+          "通州供应"
+        ],
+        "missed_count": 4,
+        "out_of_support": []
+      },
+      "candidate": {
+        "card_id": "85bb1cb9cd4ff6",
+        "control_count": 13,
+        "positive_count": 7,
+        "threshold": 0.72,
+        "flagged": [
+          "临港包装",
+          "乐溪用品",
+          "宝泉设备",
+          "新城电器",
+          "海西配件",
+          "银山电工"
+        ],
+        "missed": [
+          "北江器材",
+          "南湖商贸",
+          "灵石代理",
+          "通州供应"
+        ],
+        "missed_count": 4,
+        "out_of_support": []
+      }
+    }
+  },
+  "same_period_replay": {
+    "allowed": true,
+    "missed_delta": 0,
+    "current": {
+      "card_id": "91f94579eac395",
+      "control_count": 13,
+      "positive_count": 7,
+      "threshold": 0.72,
+      "flagged": [
+        "临港包装",
+        "北江器材",
+        "南湖商贸",
+        "宝泉设备",
+        "灵石代理",
+        "通州供应"
+      ],
+      "missed": [
+        "乐溪用品",
+        "海西配件"
+      ],
+      "missed_count": 2,
+      "out_of_support": []
+    },
+    "candidate": {
+      "card_id": "85bb1cb9cd4ff6",
+      "control_count": 13,
+      "positive_count": 7,
+      "threshold": 0.72,
+      "flagged": [
+        "临港包装",
+        "北江器材",
+        "南湖商贸",
+        "宝泉设备",
+        "灵石代理",
+        "通州供应"
+      ],
+      "missed": [
+        "乐溪用品",
+        "海西配件"
+      ],
+      "missed_count": 2,
+      "out_of_support": []
+    }
+  },
+  "active_model_id": "85bb1cb9cd4ff6",
+  "previous_model_id": "91f94579eac395",
+  "review_rows": [
+    {
+      "debtor": "东汇机电",
+      "balance": 230000.0,
+      "overdue": 230000.0,
+      "risk": null,
+      "decision": "进入复核",
+      "seat": 1,
+      "reason": "超出历史观察范围"
+    },
+    {
+      "debtor": "岭南五金",
+      "balance": 9592.5,
+      "overdue": 9592.5,
+      "risk": 1.0,
+      "decision": "进入复核",
+      "seat": 2,
+      "reason": "高逾期概率"
+    },
+    {
+      "debtor": "柳城商行",
+      "balance": 8424.5,
+      "overdue": 8424.5,
+      "risk": 1.0,
+      "decision": "进入复核",
+      "seat": 3,
+      "reason": "高逾期概率"
+    },
+    {
+      "debtor": "白沙工具",
+      "balance": 7020.5,
+      "overdue": 7020.5,
+      "risk": 1.0,
+      "decision": "进入复核",
+      "seat": 4,
+      "reason": "高逾期概率"
+    },
+    {
+      "debtor": "大渡贸易",
+      "balance": 6564.0,
+      "overdue": 6564.0,
+      "risk": 1.0,
+      "decision": "进入复核",
+      "seat": 5,
+      "reason": "高逾期概率"
+    },
+    {
+      "debtor": "温泉批发",
+      "balance": 5454.5,
+      "overdue": 5454.5,
+      "risk": 1.0,
+      "decision": "进入复核",
+      "seat": 6,
+      "reason": "高逾期概率"
+    },
+    {
+      "debtor": "海西配件",
+      "balance": 4809.5,
+      "overdue": 4809.5,
+      "risk": 1.0,
+      "decision": "待下班复核",
+      "seat": null,
+      "reason": "高逾期概率"
+    },
+    {
+      "debtor": "宝泉设备",
+      "balance": 4285.5,
+      "overdue": 4285.5,
+      "risk": 1.0,
+      "decision": "待下班复核",
+      "seat": null,
+      "reason": "高逾期概率"
+    },
+    {
+      "debtor": "新城电器",
+      "balance": 4070.0,
+      "overdue": 4070.0,
+      "risk": 1.0,
+      "decision": "待下班复核",
+      "seat": null,
+      "reason": "高逾期概率"
+    },
+    {
+      "debtor": "银山电工",
+      "balance": 3619.5,
+      "overdue": 3619.5,
+      "risk": 1.0,
+      "decision": "待下班复核",
+      "seat": null,
+      "reason": "高逾期概率"
+    },
+    {
+      "debtor": "乐溪用品",
+      "balance": 2773.0,
+      "overdue": 2773.0,
+      "risk": 1.0,
+      "decision": "待下班复核",
+      "seat": null,
+      "reason": "高逾期概率"
+    },
+    {
+      "debtor": "临港包装",
+      "balance": 1717.0,
+      "overdue": 1717.0,
+      "risk": 1.0,
+      "decision": "待下班复核",
+      "seat": null,
+      "reason": "高逾期概率"
+    },
+    {
+      "debtor": "永福汽配",
+      "balance": 5989.5,
+      "overdue": 0.0,
+      "risk": 0.0,
+      "decision": "保留原账期",
+      "seat": null,
+      "reason": "暂不变更"
+    },
+    {
+      "debtor": "南湖商贸",
+      "balance": 2046.5,
+      "overdue": 779.0,
+      "risk": 0.33333,
+      "decision": "保留原账期",
+      "seat": null,
+      "reason": "暂不变更"
+    },
+    {
+      "debtor": "灵石代理",
+      "balance": 1658.0,
+      "overdue": 926.0,
+      "risk": 0.0,
+      "decision": "保留原账期",
+      "seat": null,
+      "reason": "暂不变更"
+    },
+    {
+      "debtor": "开发区建材",
+      "balance": 310.0,
+      "overdue": 310.0,
+      "risk": 0.0,
+      "decision": "保留原账期",
+      "seat": null,
+      "reason": "暂不变更"
+    },
+    {
+      "debtor": "北江器材",
+      "balance": 0.0,
+      "overdue": 0.0,
+      "risk": 0.0,
+      "decision": "保留原账期",
+      "seat": null,
+      "reason": "余额已结清"
+    },
+    {
+      "debtor": "通州供应",
+      "balance": 0.0,
+      "overdue": 0.0,
+      "risk": 0.0,
+      "decision": "保留原账期",
+      "seat": null,
+      "reason": "余额已结清"
+    },
+    {
+      "debtor": "鹏河建材",
+      "balance": 0.0,
+      "overdue": 0.0,
+      "risk": 0.0,
+      "decision": "保留原账期",
+      "seat": null,
+      "reason": "余额已结清"
+    }
+  ],
+  "control_accounts": [
+    {
+      "debtor": "临港包装",
+      "label": 0
+    },
+    {
+      "debtor": "乐溪用品",
+      "label": 1
+    },
+    {
+      "debtor": "北江器材",
+      "label": 1
+    },
+    {
+      "debtor": "南湖商贸",
+      "label": 1
+    },
+    {
+      "debtor": "宝泉设备",
+      "label": 1
+    },
+    {
+      "debtor": "开发区建材",
+      "label": 0
+    },
+    {
+      "debtor": "新城电器",
+      "label": 0
+    },
+    {
+      "debtor": "永福汽配",
+      "label": 0
+    },
+    {
+      "debtor": "海西配件",
+      "label": 1
+    },
+    {
+      "debtor": "灵石代理",
+      "label": 1
+    },
+    {
+      "debtor": "通州供应",
+      "label": 1
+    },
+    {
+      "debtor": "银山电工",
+      "label": 0
+    },
+    {
+      "debtor": "鹏河建材",
+      "label": 0
+    }
+  ],
+  "ledger_path": "/workspace/scorecard_ledger.json"
+}

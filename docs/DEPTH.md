@@ -12,6 +12,7 @@ AI/ML / 传统ML
 | M4 账期建模 | 账期建模 | 时序逻辑回归、保序校准和分布外拦截 | `src/invoicecover/term_scorecard/contracts.py` `src/invoicecover/term_scorecard/engine.py` `src/invoicecover/term_scorecard/service.py` | `tests/test_term_scorecard.py` |
 | M5 账期裁定 | 账期裁定 | 按复核优先级排序，逐席守恒 | `src/invoicecover/credit_terms/contracts.py` `src/invoicecover/credit_terms/engine.py` `src/invoicecover/credit_terms/service.py` | `tests/test_credit_terms.py` |
 | M6 回款复盘 | 回款复盘 | 校准分布 PSI 与逐账单金额复核 | `src/invoicecover/collection_vintage/contracts.py` `src/invoicecover/collection_vintage/engine.py` `src/invoicecover/collection_vintage/service.py` | `tests/test_collection_vintage.py` |
+| M7 换卡治理 | 复核回流与评分卡版本 | 观察期门禁、对照回放、幂等批次和可回滚台账 | `src/invoicecover/scorecard_governance/contracts.py` `src/invoicecover/scorecard_governance/engine.py` `src/invoicecover/scorecard_governance/ledger.py` | `tests/test_scorecard_governance.py` |
 
 ## 边界与证据
 
@@ -27,3 +28,7 @@ AI/ML / 传统ML
 | TRAP-44 | 相邻校准组违序 | 产生错误的业务记录或评分 | PAV 合并并计算 ECE | `src/invoicecover/term_scorecard/engine.py` | `tests/test_term_scorecard.py::test_isotonic_repairs_reversed_probability_order` |
 | TRAP-42 | 追加未来观测 | 产生错误的业务记录或评分 | 历史模型权重不变 | `src/invoicecover/term_scorecard/engine.py` | `tests/test_term_scorecard.py::test_calibration_data_never_changes_training_weights` |
 | TRAP-19 | 超期及高分同时触发 | 产生错误的业务记录或评分 | 先敞口再高分，次序确定 | `src/invoicecover/credit_terms/engine.py` | `tests/test_credit_terms.py::test_competing_rules_keep_conservative_priority_independent_of_input_order` |
+| GOV-01 | 观察期未结束就入训 | 标签泄漏 | 未成熟结论只登记，训练版本只取成熟标签 | `src/invoicecover/scorecard_governance/engine.py` | `tests/test_scorecard_governance.py::test_observation_period_records_are_registered_but_not_trained` |
+| GOV-02 | 对照户漏户增加仍换卡 | 误判扩散 | 漏户数变多即驳回，活动卡保持不变 | `src/invoicecover/scorecard_governance/ledger.py` | `tests/test_scorecard_governance.py::test_control_replay_blocks_only_increase_in_misses` |
+| GOV-03 | 同批重跑或补录产生多版本 | 台账重复和切换歧义 | 以 `batch_id` 维护唯一逻辑训练版本，结论稳定 ID 幂等合并 | `src/invoicecover/scorecard_governance/ledger.py` | `tests/test_scorecard_governance.py::test_rerun_and_supplement_keep_one_logical_batch_version` |
+| GOV-04 | 换卡提交失败 | 活动指针悬空或丢失旧卡 | 提交成功后才改活动指针，旧卡和切换历史持久保留 | `src/invoicecover/scorecard_governance/ledger.py` | `tests/test_scorecard_governance.py::test_failed_commit_and_gate_rejection_keep_previous_card` |
